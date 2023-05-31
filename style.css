@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 50px;
+    background-color: rgb(12, 12, 12);
+}
+
+nav{
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.first-item{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+.second-item{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+.first-item li h1{
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.first-item li h1 sup{
+    color: red;
+    font-weight: 700;
+}
+
+.circle1{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(218, 197, 197);
+    border-radius: 50%;
+    position: relative;
+    left: 35px;
+    z-index: 1;
+}
+.circle2{
+    width: 50px;
+    height: 50px;
+    background-color: brown;
+    border-radius: 50%;
+    position: relative;
+    left: 20px;
+    z-index: 2;
+}
+
+.circle3{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(56, 165, 100);
+    border-radius: 50%;
+    position: relative;
+    z-index: 3;
+}
+
+
+.digital-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  
+}
+.text-part{
+    width: 50%;
+    height: 400px;
+    padding: 30px;
+    background-color: white;
+    border: 1px solid black;
+}
+.img-part{
+    width: 50%;
+    height: 400px;
+    background-color: rgb(193, 56, 243);
+}
+
+.text-part h1 span{
+    width: 400px;
+    display: flex;
+}
+.text-part h1{
+    font-size: 55px;
+}
+
+.create-your-act{
+    width: 400px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.create-your-act p:first-child{
+    border-bottom: 1px solid black;
+}
+.create-your-act p:last-child{
+    color: rgb(153, 151, 151);
+}
+.line{
+    width: 150px;
+    height: 5px;
+    background-color: black;
+    
+    position: absolute;
+    top: 200px;
+    left: 600px;
+ 
+   
+  
+   
+}
+
+.img-part {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-part img{
+    width: 400px;
+  
+
+}
+.last-part{
+    width: 100%;
+  
+    display: flex;
+    align-items: center;
+  
+    background-color: white;
+
+}
+.cart-1{
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.cart-2{
+    width: 350px;
+    height: 300px;
+    background-color: orangered;
+    text-align: center;
+    padding-top: 20px;
+   
+  
+}
+
+.cart-3{
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+  text-align: center;
+  padding: 20px;
+}
+
+.cart-4{
+    width: 350px;
+    height: 300px;
+    border: 1px solid black;
+ text-align: center;
+ padding-top: 20px;
+}
+.cart-1 button{
+    width: 180px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cart-2 h1{
+margin-top: 100px;   
+}
+.cart-3 img{
+    margin-top: 100px;
+    width: 150px;
+}
+.cart-4 h1{
+    margin-top: 120px;
+    font-size: 60px;
+    font-weight: 800;
+}
+.cart-4 h1 sup{
+    color: red;
+    font-weight: 900;
+}
+
+.cart-4 span i{
+    font-size: 40px;
+}
+
+
+@media (max-width:768px) {
+
+
+    nav{
+        width: 100%;
+    }
+    .first-item{
+        width: 100%;
+    }
+    .second-item{
+        display: none;
+    }
+
+    .text-part h1{
+        font-size: 30px;
+
+    }
+    .circle1{
+        width: 30px;
+        height: 30px;
+    }
+    .circle2{
+        width: 30px;
+        height: 30px;
+    }
+    .circle3{
+        width: 30px;
+        height: 30px;
+    }
+
+    .text-part span{
+        width: 150px;
+        margin-left: -50px;
+    }
+   
+
+    .create-your-act {
+        width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .create-your-act p{
+        margin-left: 20px;
+        font-size: 14px;
+    }
+    .last-part{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+
+
+
+    
+}
+
+
+
